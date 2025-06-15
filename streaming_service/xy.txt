@@ -1,0 +1,6 @@
+(538, 359, 624, 458)
+
+!find /content -name best.pt
+
+from google.colab import files
+files.download('/content/runs/detect/train/weights/best.pt')  # Adjust if path is different
