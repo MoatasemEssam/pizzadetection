@@ -35,3 +35,4 @@ Violation Logic
 A hand must enter and exit the ROI.
 If a scooper is not detected outside the ROI within 4 seconds after the hand exits, it is counted as a violation.
 If a scooper is already outside the ROI when the hand exits, no violation is counted and the system waits for a new cycle.
+There is also a freepass which dont let the model count voilation if the video starts with a hand and a scooper outside the roi.
